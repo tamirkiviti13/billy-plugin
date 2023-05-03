@@ -1,0 +1,31 @@
+name: "billy"
+repository: github.com/tamirkiviti13/billy-plugin
+version: "v0.130.2"
+usage: trivy billy <srcPath>
+description: A Trivy plugin that sends results to Aqua.
+platforms:
+  - selector: # optional
+      os: linux
+      arch: amd64
+    uri: https://github.com/argonsecurity/releases/releases/download/0.1.301/billy_0.1.301_linux_amd64.tar.gz
+    bin: ./billy
+  - selector:
+      os: linux
+      arch: arm64
+    uri: https://github.com/argonsecurity/releases/releases/download/0.1.301/billy_0.1.301_linux_arm64.tar.gz
+    bin: ./billy
+  - selector:
+      os: darwin
+      arch: amd64
+    uri: https://github.com/argonsecurity/releases/releases/download/0.1.301/billy_0.1.301_darwin_amd64.tar.gz
+    bin: ./billy
+  - selector:
+      os: darwin
+      arch: arm64
+    uri: https://github.com/argonsecurity/releases/releases/download/0.1.301/billy_0.1.301_darwin_arm64.tar.gz
+    bin: ./billy
+  - selector:
+      os: windows
+      arch: amd64
+    uri: https://github.com/aquasecurity/trivy-plugin-aqua/releases/download/v0.130.2/windows_amd64_v0.130.2.tar.gz
+    bin: ./billy
