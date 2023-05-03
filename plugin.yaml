@@ -24,8 +24,3 @@ platforms:
       arch: arm64
     uri: https://github.com/argonsecurity/releases/releases/download/0.1.301/billy_0.1.301_darwin_arm64.tar.gz
     bin: ./billy
-  - selector:
-      os: windows
-      arch: amd64
-    uri: https://github.com/argonsecurity/releases/releases/download/0.1.301/billy_0.1.301_windows_amd64.tar.gz
-    bin: ./billy
