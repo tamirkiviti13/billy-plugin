@@ -1,5 +1,5 @@
 name: "billy"
-repository: github.com/tamirkiviti13/billy-plugin
+repository: github.com/argonsecurity/releases
 version: "v0.1.301"
 usage: trivy billy <srcPath>
 description: A Trivy plugin that sends results to Aqua.
